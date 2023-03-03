@@ -33,7 +33,7 @@ struct CookieView: View {
             
             Image("CookieImage")
             .resizable()
-            .frame(width: 150, height: 100)
+            .frame(width: 100, height: 90)
             .shadow(radius: 5,y: 6)
             .padding(50)
             .offset(x: CGFloat(xAchse), y: CGFloat(yAchse))

@@ -4,17 +4,25 @@
 //
 //  Created by Alexander Astrachanzev on 03.03.23.
 //
-
 import SwiftUI
+import AVFAudio
 
-struct AudioPlayerClass: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+class AudioPlayer {
+    var player: AVAudioPlayer?
 
-struct AudioPlayerClass_Previews: PreviewProvider {
-    static var previews: some View {
-        AudioPlayerClass()
+    func playSound(soundFileName: String, soundFileType: String) {
+        guard let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: soundFileType) else {
+            print("Sound file not found")
+            return
+        }
+
+        do {
+            
+            player = try AVAudioPlayer(contentsOf: soundURL)
+            player?.play()
+            
+        } catch {
+            print("Error playing sound: \(error)")
+        }
     }
 }
