@@ -17,18 +17,21 @@ struct ContentView: View {
     @State var brokoliyAchse : Int = Int.random(in: -100...200)
     @State var brokolixAchse : Int = Int.random(in: -100...200)
     
-    @State var counter : Int = 0
+    @State var counter : Int = 10
 
     
     
     var body: some View {
 
    
-          
-                
-//                CookieView(yAchse: $yAchse, xAchse: $xAchse, counter: $counter)
+        ZStack{
+            
+    CookieView(yAchse: $yAchse, xAchse: $xAchse, counter: $counter)
 
-        BrokoliView(brokoliyAchse: $brokoliyAchse, brokolixAchse: $brokolixAchse, counter: $counter)
+    BrokoliView(brokoliyAchse: $brokoliyAchse, brokolixAchse: $brokolixAchse, counter: $counter)
+            
+        }
+       
     
          
                 

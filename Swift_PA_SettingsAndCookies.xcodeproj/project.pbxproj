@@ -29,6 +29,9 @@
 		B7F4424129B23226004E4837 /* DatepickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4424029B23226004E4837 /* DatepickerView.swift */; };
 		B7F4424329B23331004E4837 /* ButtonSaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4424229B23331004E4837 /* ButtonSaveView.swift */; };
 		B7F4424529B23A3D004E4837 /* BrokoliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4424429B23A3D004E4837 /* BrokoliView.swift */; };
+		B7F4424729B26714004E4837 /* vincenlaugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7F4424629B26714004E4837 /* vincenlaugh.mp3 */; };
+		B7F4424929B2671C004E4837 /* evillaugh.swf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7F4424829B2671C004E4837 /* evillaugh.swf.mp3 */; };
+		B7F4424B29B267D5004E4837 /* woodylaugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7F4424A29B267D5004E4837 /* woodylaugh.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		B7F4424029B23226004E4837 /* DatepickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatepickerView.swift; sourceTree = "<group>"; };
 		B7F4424229B23331004E4837 /* ButtonSaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSaveView.swift; sourceTree = "<group>"; };
 		B7F4424429B23A3D004E4837 /* BrokoliView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokoliView.swift; sourceTree = "<group>"; };
+		B7F4424629B26714004E4837 /* vincenlaugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vincenlaugh.mp3; sourceTree = "<group>"; };
+		B7F4424829B2671C004E4837 /* evillaugh.swf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = evillaugh.swf.mp3; sourceTree = "<group>"; };
+		B7F4424A29B267D5004E4837 /* woodylaugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woodylaugh.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				B7F4424029B23226004E4837 /* DatepickerView.swift */,
 				B7F4424229B23331004E4837 /* ButtonSaveView.swift */,
 				04F3494329B0973F006443B6 /* Assets.xcassets */,
+				B7F4424629B26714004E4837 /* vincenlaugh.mp3 */,
+				B7F4424A29B267D5004E4837 /* woodylaugh.mp3 */,
+				B7F4424829B2671C004E4837 /* evillaugh.swf.mp3 */,
 				B72ECAF629B2071100EF5E5C /* mobilesound1.mp3 */,
 				B72ECAF729B2071100EF5E5C /* mobilesound2.mp3 */,
 				B72ECAFA29B209B900EF5E5C /* cartoonjump.mp3 */,
@@ -180,14 +189,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B72ECAF829B2071100EF5E5C /* mobilesound1.mp3 in Resources */,
+				B7F4424B29B267D5004E4837 /* woodylaugh.mp3 in Resources */,
 				B72ECB0729B212C600EF5E5C /* deepjump2.mp3 in Resources */,
 				04F3495629B0B316006443B6 /* README.md in Resources */,
 				B72ECB0529B2127C00EF5E5C /* deepjump.mp3 in Resources */,
 				04F3494729B0973F006443B6 /* Preview Assets.xcassets in Resources */,
 				B72ECB0929B2131400EF5E5C /* sfxjump.mp3 in Resources */,
 				B72ECAFF29B209BA00EF5E5C /* funnysfx.mp3 in Resources */,
+				B7F4424929B2671C004E4837 /* evillaugh.swf.mp3 in Resources */,
 				B72ECAFE29B209BA00EF5E5C /* gamechar.mp3 in Resources */,
 				B72ECAFD29B209BA00EF5E5C /* cartoonjump.mp3 in Resources */,
+				B7F4424729B26714004E4837 /* vincenlaugh.mp3 in Resources */,
 				04F3494429B0973F006443B6 /* Assets.xcassets in Resources */,
 				B72ECAF929B2071100EF5E5C /* mobilesound2.mp3 in Resources */,
 			);

@@ -17,21 +17,20 @@ struct BrokoliView: View {
     
     let audioPlayer = AudioPlayer()
     
-    @State var isTapped = false
+    @State private var imageSize: CGSize = CGSize(width: 100, height: 90)
 
-    
-    
     
     var body: some View {
 
        
         Image("BadBrokoli")
         .resizable()
-        .frame(width: isTapped ? 200 : 100, height: isTapped ? 180 : 90)
+        .frame(width:imageSize.width,height: imageSize.height)
         .shadow(radius: 5,y: 6)
         .onTapGesture {
             
-            isTapped.toggle()
+            imageSize.height += 10
+            imageSize.width += 10
             
             let sounds : [String] = ["cartoonjump",
                                      "funny",
