@@ -28,6 +28,7 @@
 		B7F4423F29B22CE8004E4837 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4423E29B22CE8004E4837 /* ColorPickerView.swift */; };
 		B7F4424129B23226004E4837 /* DatepickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4424029B23226004E4837 /* DatepickerView.swift */; };
 		B7F4424329B23331004E4837 /* ButtonSaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4424229B23331004E4837 /* ButtonSaveView.swift */; };
+		B7F4424529B23A3D004E4837 /* BrokoliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4424429B23A3D004E4837 /* BrokoliView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		B7F4423E29B22CE8004E4837 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		B7F4424029B23226004E4837 /* DatepickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatepickerView.swift; sourceTree = "<group>"; };
 		B7F4424229B23331004E4837 /* ButtonSaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSaveView.swift; sourceTree = "<group>"; };
+		B7F4424429B23A3D004E4837 /* BrokoliView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokoliView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				04F3493F29B0973C006443B6 /* Swift_PA_SettingsAndCookiesApp.swift */,
 				04F3494129B0973C006443B6 /* ContentView.swift */,
 				04F3495129B0B2C4006443B6 /* CookieView.swift */,
+				B7F4424429B23A3D004E4837 /* BrokoliView.swift */,
 				B72ECAF229B204DC00EF5E5C /* AudioPlayerClass.swift */,
 				04F3495329B0B2D5006443B6 /* FormView.swift */,
 				B72ECB0E29B220F000EF5E5C /* BenutzernameView.swift */,
@@ -205,6 +208,7 @@
 				04F3495229B0B2C4006443B6 /* CookieView.swift in Sources */,
 				B72ECB0F29B220F000EF5E5C /* BenutzernameView.swift in Sources */,
 				04F3494229B0973C006443B6 /* ContentView.swift in Sources */,
+				B7F4424529B23A3D004E4837 /* BrokoliView.swift in Sources */,
 				B72ECAF329B204DC00EF5E5C /* AudioPlayerClass.swift in Sources */,
 				04F3494029B0973C006443B6 /* Swift_PA_SettingsAndCookiesApp.swift in Sources */,
 			);
