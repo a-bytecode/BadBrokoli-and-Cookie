@@ -14,6 +14,7 @@
 		04F3495229B0B2C4006443B6 /* CookieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3495129B0B2C4006443B6 /* CookieView.swift */; };
 		04F3495429B0B2D5006443B6 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3495329B0B2D5006443B6 /* FormView.swift */; };
 		04F3495629B0B316006443B6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04F3495529B0B316006443B6 /* README.md */; };
+		B72ECAF329B204DC00EF5E5C /* AudioPlayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72ECAF229B204DC00EF5E5C /* AudioPlayerClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		04F3495129B0B2C4006443B6 /* CookieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieView.swift; sourceTree = "<group>"; };
 		04F3495329B0B2D5006443B6 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		04F3495529B0B316006443B6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B72ECAF229B204DC00EF5E5C /* AudioPlayerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				04F3495329B0B2D5006443B6 /* FormView.swift */,
 				04F3494329B0973F006443B6 /* Assets.xcassets */,
 				04F3494529B0973F006443B6 /* Preview Content */,
+				B72ECAF229B204DC00EF5E5C /* AudioPlayerClass.swift */,
 			);
 			path = Swift_PA_SettingsAndCookies;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				04F3495429B0B2D5006443B6 /* FormView.swift in Sources */,
 				04F3495229B0B2C4006443B6 /* CookieView.swift in Sources */,
 				04F3494229B0973C006443B6 /* ContentView.swift in Sources */,
+				B72ECAF329B204DC00EF5E5C /* AudioPlayerClass.swift in Sources */,
 				04F3494029B0973C006443B6 /* Swift_PA_SettingsAndCookiesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
